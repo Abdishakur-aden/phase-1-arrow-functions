@@ -1,7 +1,5 @@
-function divide(){
-    let a = 2000;
-    let b = 100;
-    return a/b;
+const divide = function (){
+    return 2000 / 100;
 }
 
 const square = number => number ** 2;
