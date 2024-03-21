@@ -4,12 +4,7 @@ function divide(){
     return a/b;
 }
 
-const square = number => {
-    let x = number**2;
-    return x;
-} 
+const square = number => number ** 2;
 
-const add = (num1, num2) => {
-    let y = num1 + num2;
-    return y;
-}
+
+const add = (num1, num2) => num1 + num2;
